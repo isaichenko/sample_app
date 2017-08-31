@@ -22,4 +22,4 @@
 
 .byebug_history
 .secret
-.bundler/
+.bundle/
