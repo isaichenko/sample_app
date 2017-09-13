@@ -72,7 +72,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['roraiver@gmail.com'],
     :password       => ENV['1234qwerT'],
-    :domain         => 'heroku.com'
+    :domain         => 'heroku.com',
     :enable_starttls_auto => true
   }
 
