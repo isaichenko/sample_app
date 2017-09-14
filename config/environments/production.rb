@@ -67,7 +67,7 @@ Rails.application.configure do
   host = 'peaceful-escarpment-65450.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :address        => 'smtp.sandgrid.net', 
+    :address        => 'smtp.sendgrid.net', 
     :port           => '587',
     :authentication => :plain,
     :user_name      => ENV['SENDGRID_USERNAME'],
